@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baladinha do Bob</title>
+    <link
+      rel="shortcut icon"
+      href="assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img
+          src="assets/images/bob-esponja-2-pq.png"
+          alt="Bob Esponja dançando"
+          class="header-img"
+        />
+        <div class="texto-header">
+          <h1>BALADINHA DO BOB</h1>
+          <h2>Você foi convidade para a festa mais icônica do Oceano!</h2>
+        </div>
+        <img
+          src="assets/images/bob-esponja-pq.png"
+          alt="Patrick feliz"
+          class="header-img"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="convite">
+        <section class="descricao-convite">
+          <h2>Bem-vindos à balada mais divertclassa da Fenda do Biquíni!</h2>
+          <p>
+            Prepare-se para mergulhar em uma celebração cheia de cores, risadas
+            e muitas aventuras submarinas! Esse é o convite oficial para a
+            grande festa do nosso amiguinho <strong>Bob Esponja</strong>.
+            Coloque sua roupa de bolha e venha se divertir com a gente! 🌊✨
+          </p>
+          <img
+            src="assets/images/bob-e-patrick-pq.png"
+            alt="Bob Esponja e Patrick Estrela"
+          />
+        </section>
+        <section id="interativo" class="descricao-convite">
+          <div id="form-confirmacao">
+            <h2>Confirme sua presença!</h2>
+            <p>
+              Por favor, nos diga se você participará da balada do
+              <strong>Bob Esponja</strong>.
+            </p>
+
+            <form id="form-rsvp">
+              <input
+                type="text"
+                placeholder="Seu nome"
+                id="nome-convidado"
+                required
+              />
+              <button type="button" id="btn-confirmar">Confirmar</button>
+            </form>
+          </div>
+
+          <div id="contagem-regressiva" style="display: none">
+            <h2>A festa começa em:</h2>
+            <div id="countdown-timer">
+              <span id="dias">00</span> dias <br /><span id="horas">00</span>
+              horas <span id="minutos">00</span> minutos <br />
+              <span id="segundos">00</span> segundos
+            </div>
+            <p>Mal podemos esperar!</p>
+          </div>
+        </section>
+      </div>
+      <section id="convidados" class="sessoes">
+        <h2>⭐ Convidados de Honra ⭐</h2>
+        <p>
+          Olha só quem já confirmou presença: Bob Esponja, Patrick Estrela, Lula
+          Molusco (com aquela cara de poucos amigos 🐙), Sandy Bochechas, Senhor
+          Sirigueijo e até o Plankton (provavelmente tentando roubar a fórmula
+          do hambúrguer de siri 🫢). Uma galeria inteira dedicada aos personagens
+          mais icônicos da Fenda do Biquíni!
+        </p>
+        <img src="assets/images/turminha-pq-80.png" alt="Plankton" />
+      </section>
+      <div class="final">
+        <section id="agenda" class="sessoes">
+          <h2>Agenda da Festa</h2>
+          <p>
+            Tá na hora, tá na hora! Chegou a hora de descobrir o que a Balada do
+            Bob te reserva! Prepare sua roupa de bolha e se junte a nós para uma
+            noite inesquecível, com uma programação recheada de risadas, música
+            e muita diversão submarina!
+          </p>
+          <ul>
+            <li><strong>Local:</strong> Fenda do Biquíni</li>
+            <li><strong>Data:</strong> 25 de Outubro</li>
+            <li><strong>Horário:</strong> 19hrs</li>
+          </ul>
+        </section>
+        <section id="curiosidades" class="sessoes">
+          <h2>🍔 Curiosidades do Siri Cascudo</h2>
+          <p>
+            Você sabia que o Hambúrguer de Siri é a comida mais famosa de toda a
+            Fenda do Biquíni? Nessa seção, você vai descobrir curiosidades
+            deliciosas sobre o <strong>Siri Cascudo</strong>. Spoiler: a fórmula
+            secreta continua sendo segredo! 😉
+          </p>
+
+          <div class="carousel">
+            <button class="carousel-btn prev" aria-label="Anterior">⬅️</button>
+
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <article class="carousel-slide">
+                  <h3>A história do restaurante</h3>
+                  <p>
+                    Antes de ser um restaurante, o Siri Cascudo era uma casa de
+                    repouso para idosos. O Sr. Siriguejo comprou o prédio e o
+                    transformou no estabelecimento de sucesso que conhecemos
+                    hoje.
+                  </p>
+                </article>
+                <article class="carousel-slide">
+                  <h3>O ingrediente secreto</h3>
+                  <p>
+                    O segredo do famoso Hambúrguer de Siri continua um mistério,
+                    mas muitos fãs especulam que ele não leva carne de
+                    caranguejo!
+                  </p>
+                </article>
+                <article class="carousel-slide">
+                  <h3>A "competição"</h3>
+                  <p>
+                    O Siri Cascudo tem um rival de peso: o Balde de Lixo do
+                    Plankton. O Sr. Siriguejo vive em disputa com Plankton para
+                    proteger a fórmula.
+                  </p>
+                </article>
+                <article class="carousel-slide">
+                  <h3>Os funcionários</h3>
+                  <p>
+                    O restaurante só tem dois funcionários: Bob Esponja
+                    (cozinheiro) e Lula Molusco (caixa). Uma dupla e tanto!
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <button class="carousel-btn next" aria-label="Próximo">➡️</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>© 2025 Balada do Bob. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
