@@ -105,3 +105,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
   update();
 });
+
+//BOLHAS DA PÁGINA
+const container = document.getElementById("bolhas-container");
+
+function criarBolha() {
+  const bolha = document.createElement("div");
+  bolha.classList.add("bolha");
+
+  const size = Math.random() * 30 + 10;
+  bolha.style.width = `${size}px`;
+  bolha.style.height = `${size}px`;
+
+  bolha.style.left = `${Math.random() * 100}%`;
+
+  bolha.style.animationDuration = `${Math.random() * 10 + 5}s`;
+
+  container.appendChild(bolha);
+
+  setTimeout(() => {
+    bolha.remove();
+  }, (parseFloat(bolha.style.animationDuration) * 1000));
+}
+
+setInterval(criarBolha, 500);
