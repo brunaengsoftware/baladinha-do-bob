@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Fredoka:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor-amarelo-1: #fff56c2e;
+  --cor-amarelo: #fff56c;
+  --azul-profundo: #003366;
+  --cor-azul-transparente:rgba(0, 51, 102, 0.418);
+  --cor-vermelho: #eb2f2c;
+  --turquesa: #00ced1;
+
+  --font-padrao: "Fredoka", sans-serif;
+  --font-diversos: "Alan Sans", sans-serif;
+}
+
+body {
+  background-image: url(../assets/images/fundo-do-mar.jpg);
+  background-size: cover;
+  color: var(--azul-profundo);
+}
+
+header {
+  color: var(--azul-profundo);
+  text-align: center;
+  font-family: var(--font-padrao);
+  background-color: var(--cor-amarelo);
+}
+
+header img {
+  width: 120px;
+}
+
+main {
+  font-family: var(--font-diversos);
+}
+
+footer {
+  background-color: var(--cor-amarelo);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-top: 3px solid var(--cor-azul-transparente);
+}
+
+.texto-header {
+  text-align: center;
+  max-width: 600px;
+}
+
+.texto-header h1 {
+  font-size: 3rem;
+  text-shadow: 3px 4px 5px #0000005a;
+}
+
+.texto-header h2 {
+  font-size: 2em;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.convite {
+  display: flex;
+  flex-direction: row;
+  padding: 0 40px 0 40px;
+}
+
+.sessoes {
+  text-align: center;
+  padding: 50px;
+}
+
+.sessoes p {
+  text-align: justify;
+  padding-top: 20px;
+}
+
+.descricao-convite {
+  background-image: linear-gradient(
+    to bottom,
+    var(--cor-amarelo),
+    var(--cor-amarelo-1)
+  );
+  text-align: center;
+  margin: 40px auto;
+  padding: 40px 30px;
+  width: 500px;
+  border: 3px dashed var(--azul-profundo);
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.descricao-convite h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.descricao-convite p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 460px;
+  padding-top: 10px;
+}
+
+.final {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 60px;
+}
+
+#interativo {
+  text-align: center;
+}
+
+#form-confirmacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#form-confirmacao input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+#btn-confirmar {
+  padding: 10px 20px;
+  background-color: var(--cor-vermelho);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#btn-confirmar:hover {
+  background-color: #7c0d0b;
+}
+
+#countdown-timer {
+  background-color: var(--cor-vermelho);
+  border: 3px solid var(--azul-profundo);
+  border-radius: 20px;
+  box-shadow: 3px 0px 3px #00000061;
+  text-shadow: 4px 3px 3px #00000061;
+  padding: 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffff;
+  margin-top: 10px;
+}
+
+#countdown-timer span {
+  font-size: 1.5em;
+}
+
+#contagem-regressiva p {
+  text-align: center;
+}
+
+#convidados {
+  background-image: linear-gradient(
+    to bottom,
+    var(--cor-amarelo),
+    var(--cor-amarelo-1)
+  );
+  text-align: center;
+  margin: 40px auto;
+  padding: 40px 30px;
+  width: 1000px;
+  height: 500px;
+  border: 3px dashed var(--azul-profundo);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#convidados h2 {
+  font-size: 2em;
+  text-shadow: 3px 3px 5px #00000025;
+}
+
+#convidados p {
+  padding-bottom: 20px;
+}
+
+#convidados img {
+  width: 300px;
+  height: 300px;
+}
+
+#agenda {
+  background-image: linear-gradient(to bottom, var(--cor-amarelo), #fff);
+  border-radius: 10px 0px 10px 0px;
+  padding: 50px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 3px 3px 3px #00000050;
+}
+
+#agenda ul {
+  text-align: justify;
+  padding: 20px;
+}
+
+#curiosidades {
+  background-image: linear-gradient(to bottom, var(--cor-amarelo), #fff);
+  border-radius: 10px 0px 10px 0px;
+  padding: 50px;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  box-shadow: 3px 3px 3px #00000050;
+}
+
+#curiosidades ul {
+  text-align: justify;
+  padding: 20px;
+}
+
+#curiosidades .carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+#curiosidades .carousel-viewport {
+  width: min(700px, 90%);
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#curiosidades .carousel-track {
+  display: flex;
+  transition: transform 0.45s ease;
+  will-change: transform;
+}
+
+#curiosidades .carousel-slide {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  height: 220px;
+  padding: 24px;
+  min-height: 140px;
+  background: var(--azul-profundo);
+  border-radius: 12px;
+  margin-right: 0;
+  text-align: left;
+  color: #fff;
+}
+
+#curiosidades .carousel-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+#curiosidades .carousel-btn:active {
+  transform: scale(0.98);
+}
+#curiosidades .carousel-slide h3 {
+  text-shadow: 3px 3px 3px #00000076;
+  font-size: 1.05rem;
+}
+#curiosidades .carousel-slide p {
+  line-height: 1.3;
+  font-size: 0.98rem;
+  padding: 10px 15px;
+  box-shadow: 3px 3px 3px #00000048;
+  text-shadow: 1px 1px 3px #00000076;
+  border-radius: 10px;
+}
