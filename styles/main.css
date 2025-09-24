@@ -48,7 +48,6 @@ footer {
 }
 
 .texto-header {
-  text-align: center;
   max-width: 600px;
 }
 
@@ -72,7 +71,7 @@ footer {
 .convite {
   display: flex;
   flex-direction: row;
-  padding: 0 40px 0 40px;
+  padding: 0 40px;
 }
 
 .sessoes {
