@@ -10,7 +10,7 @@
   --cor-amarelo-1: #fff56c2e;
   --cor-amarelo: #fff56c;
   --azul-profundo: #003366;
-  --cor-azul-transparente:rgba(0, 51, 102, 0.418);
+  --cor-azul-transparente: rgba(0, 51, 102, 0.418);
   --cor-vermelho: #eb2f2c;
   --turquesa: #00ced1;
 
@@ -104,7 +104,7 @@ footer {
   align-items: center;
 }
 
-.descricao-convite h1 {
+.descricao-convite h2 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.3;
@@ -192,7 +192,7 @@ footer {
   background-color: #7c0d0b;
 }
 
-#countdown-timer {
+#cronometro {
   background-color: var(--cor-vermelho);
   border: 3px solid var(--azul-profundo);
   border-radius: 20px;
@@ -205,7 +205,7 @@ footer {
   margin-top: 10px;
 }
 
-#countdown-timer span {
+#cronometro span {
   font-size: 1.5em;
 }
 
@@ -270,12 +270,7 @@ footer {
   box-shadow: 3px 3px 3px #00000050;
 }
 
-#curiosidades ul {
-  text-align: justify;
-  padding: 20px;
-}
-
-#curiosidades .carousel {
+#curiosidades .carrossel {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,19 +278,19 @@ footer {
   margin-top: 20px;
 }
 
-#curiosidades .carousel-viewport {
+#curiosidades .janela-carrossel {
   width: min(700px, 90%);
   overflow: hidden;
   border-radius: 16px;
 }
 
-#curiosidades .carousel-track {
+#curiosidades .abas-carrossel {
   display: flex;
   transition: transform 0.45s ease;
   will-change: transform;
 }
 
-#curiosidades .carousel-slide {
+#curiosidades .slides-carrossel {
   flex: 0 0 100%;
   box-sizing: border-box;
   height: 220px;
@@ -308,20 +303,20 @@ footer {
   color: #fff;
 }
 
-#curiosidades .carousel-btn {
+#curiosidades .material-symbols-outlined {
   border: none;
   cursor: pointer;
   font-size: 1.1rem;
 }
 
-#curiosidades .carousel-btn:active {
+#curiosidades .material-symbols-outlined:active {
   transform: scale(0.98);
 }
-#curiosidades .carousel-slide h3 {
+#curiosidades .slides-carrossel h3 {
   text-shadow: 3px 3px 3px #00000076;
   font-size: 1.05rem;
 }
-#curiosidades .carousel-slide p {
+#curiosidades .slides-carrossel p {
   line-height: 1.3;
   font-size: 0.98rem;
   padding: 10px 15px;

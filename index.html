@@ -9,7 +9,12 @@
       href="assets/icons/favicon.ico"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/responsive.css">
   </head>
   <body>
     <div id="bolhas-container"></div>
@@ -48,7 +53,7 @@
         </section>
         <section id="interativo" class="descricao-convite">
           <div id="form-confirmacao">
-            <h2>Confirme sua presença!</h2>
+            <h2>Confirme sua presença! 💛</h2>
             <p>
               Por favor, nos diga se você participará da balada do
               <strong>Bob Esponja</strong>.
@@ -67,7 +72,7 @@
 
           <div id="contagem-regressiva" style="display: none">
             <h2>A festa começa em:</h2>
-            <div id="countdown-timer">
+            <div id="cronometro">
               <span id="dias">00</span> dias <br /><span id="horas">00</span>
               horas <span id="minutos">00</span> minutos <br />
               <span id="segundos">00</span> segundos
@@ -81,20 +86,23 @@
         <p>
           Olha só quem já confirmou presença: Bob Esponja, Patrick Estrela, Lula
           Molusco (com aquela cara de poucos amigos 🐙), Sandy Bochechas, Senhor
-          Sirigueijo, Gary Caracol e até o Plankton (provavelmente tentando roubar a fórmula
-          do hambúrguer de siri 🫢). Uma galeria inteira dedicada aos personagens
-          mais icônicos da Fenda do Biquíni!
+          Sirigueijo, Gary Caracol e até o Plankton (provavelmente tentando
+          roubar a fórmula do hambúrguer de siri 🫢). Uma galeria inteira
+          dedicada aos personagens mais icônicos da Fenda do Biquíni!
         </p>
-        <img src="assets/images/turminha-pq-80.png" alt="Turma do Bob Esponja" />
+        <img
+          src="assets/images/turminha-pq-80.png"
+          alt="Turma do Bob Esponja"
+        />
       </section>
       <div class="final">
         <section id="agenda" class="sessoes">
-          <h2>Agenda da Festa</h2>
+          <h2>✨ Agenda da Festa ✨</h2>
           <p>
-            Tá na hora, tá na hora! Chegou a hora de descobrir o que a Balada do
+            Tá na hora, tá na hora! 🎉 Chegou a hora de descobrir o que a Balada do
             Bob te reserva! Prepare sua roupa de bolha e se junte a nós para uma
             noite inesquecível, com uma programação recheada de risadas, música
-            e muita diversão submarina!
+            e muita diversão submarina! 🤩
           </p>
           <ul>
             <li><strong>Local:</strong> Fenda do Biquíni</li>
@@ -111,12 +119,17 @@
             secreta continua sendo segredo! 😉
           </p>
 
-          <div class="carousel">
-            <button class="carousel-btn prev" aria-label="Anterior">⬅️</button>
+          <div class="carrossel">
+            <button
+              class="material-symbols-outlined prev"
+              aria-label="Anterior"
+            >
+              chevron_left
+            </button>
 
-            <div class="carousel-viewport">
-              <div class="carousel-track">
-                <article class="carousel-slide">
+            <div class="janela-carrossel">
+              <div class="abas-carrossel">
+                <article class="slides-carrossel">
                   <h3>A história do restaurante</h3>
                   <p>
                     Antes de ser um restaurante, o Siri Cascudo era uma casa de
@@ -125,7 +138,7 @@
                     hoje.
                   </p>
                 </article>
-                <article class="carousel-slide">
+                <article class="slides-carrossel">
                   <h3>O ingrediente secreto</h3>
                   <p>
                     O segredo do famoso Hambúrguer de Siri continua um mistério,
@@ -133,7 +146,7 @@
                     caranguejo!
                   </p>
                 </article>
-                <article class="carousel-slide">
+                <article class="slides-carrossel">
                   <h3>A "competição"</h3>
                   <p>
                     O Siri Cascudo tem um rival de peso: o Balde de Lixo do
@@ -141,7 +154,7 @@
                     proteger a fórmula.
                   </p>
                 </article>
-                <article class="carousel-slide">
+                <article class="slides-carrossel">
                   <h3>Os funcionários</h3>
                   <p>
                     O restaurante só tem dois funcionários: Bob Esponja
@@ -151,7 +164,9 @@
               </div>
             </div>
 
-            <button class="carousel-btn next" aria-label="Próximo">➡️</button>
+            <button class="material-symbols-outlined next" aria-label="Próximo">
+              chevron_right
+            </button>
           </div>
         </section>
       </div>

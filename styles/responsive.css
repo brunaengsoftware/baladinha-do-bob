@@ -1,0 +1,144 @@
+@media (max-width: 1230px) {
+  .convite {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descricao-convite {
+    margin-bottom: 1px;
+  }
+
+  #convidados {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .final {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+  }
+
+  #agenda {
+    width: 500px;
+  }
+
+  #curiosidades {
+    width: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .texto-header h1 {
+    font-size: 2rem;
+    text-shadow: 3px 4px 5px #0000005a;
+  }
+
+  .texto-header h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 700px) {
+  .descricao-convite {
+    width: 300px;
+  }
+
+  .descricao-convite h2 {
+    font-size: 1.3rem;
+  }
+
+  .descricao-convite p {
+    font-size: 1rem;
+  }
+
+  .descricao-convite button {
+    margin-top: 10px;
+  }
+
+  .final h2 {
+    font-size: 1.3rem;
+  }
+
+  .final p {
+    font-size: 0.9rem;
+  }
+
+  #convidados {
+    width: 300px;
+    margin-bottom: 5px;
+  }
+
+  #convidados h2 {
+    font-size: 1.3rem;
+  }
+
+  #convidados p {
+    font-size: 1rem;
+  }
+
+  #convidados img {
+    width: 170px;
+    height: 170px;
+  }
+
+  #agenda {
+    width: 250px;
+  }
+
+  #curiosidades {
+    width: 250px;
+  }
+
+  #curiosidades h2 {
+    font-size: 1.3rem;
+  }
+
+  #curiosidades .janela-carrossel {
+    width: 200px;
+    height: 170px;
+    background-color: var(--cor-amarelo);
+  }
+
+  #curiosidades .slides-carrossel {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  #curiosidades .slides-carrossel h3 {
+    font-size: 0.9rem;
+    color: var(--azul-profundo);
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 7px 0;
+  }
+
+  #curiosidades .slides-carrossel p {
+    font-size: 0.8rem;
+    color: var(--azul-profundo);
+    box-shadow: none;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 540px) {
+  header img {
+    width: 100px;
+  }
+
+  .descricao-convite img {
+    width: 150px;
+  }
+
+  #cronometro {
+    font-size: 1em;
+  }
+}
+
+

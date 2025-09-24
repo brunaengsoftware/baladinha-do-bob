@@ -47,11 +47,11 @@ btnConfirmar.addEventListener('click', () => {
 
 // CURIOSIDADES
 document.addEventListener('DOMContentLoaded', () => {
-  const carousel = document.querySelector('#curiosidades .carousel');
-  const track = carousel.querySelector('.carousel-track');
+  const carrossel = document.querySelector('#curiosidades .carrossel');
+  const track = carrossel.querySelector('.abas-carrossel');
   const slides = Array.from(track.children);
-  const prevBtn = carousel.querySelector('.prev');
-  const nextBtn = carousel.querySelector('.next');
+  const prevBtn = carrossel.querySelector('.prev');
+  const nextBtn = carrossel.querySelector('.next');
 
   let index = 0;
 
