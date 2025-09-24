@@ -2,7 +2,7 @@
 
 Projeto de um convite de festa online temático do Bob Esponja.
 
-### 🔗 Link do Site: [[baladinhadobob.github.io](https://brunaengsoftware.github.io/baladinha-do-bob/)]
+### 🔗 Link do Site: <a href="https://brunaengsoftware.github.io/baladinha-do-bob/" target="_blank">baladinhadobob.github.io</a>
 
 ### 🚀 Funcionalidades Principais
 
